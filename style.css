@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+}
+
+#left-column {
+    width: 35%;
+    float: left;
+    background-color: chocolate;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#left-column img {
+    width: 120px;
+    height: auto;
+    margin: 5px;
+}
+
+#right-column {
+    width: 65%;
+    float: right;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+#right-column > img:not(#logo) {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+}
+
+img#logo {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    bottom: 20px;
+    right: 10px;
+}
